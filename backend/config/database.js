@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'sqlite',
     connection: {
-      host: env('DATABASE_HOST', 'private-ecommerce-db-do-user-14552568-0.b.db.ondigitalocean.com'),
+      host: env('DATABASE_HOST', 'ecommerce-db-do-user-14552568-0.b.db.ondigitalocean.com'),
       port: env.int('DATABASE_PORT', 25060),
       database: env('DATABASE_NAME', 'defaultdb'),
       user: env('DATABASE_USERNAME', 'doadmin'),
